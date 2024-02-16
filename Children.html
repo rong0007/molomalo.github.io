@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Children page</title>
+    <!-- <link rel="stylesheet" href="/StyleCSS/style_children.css"> -->
+</head>
+<body>
+    <style>
+        *{
+    padding: 0px;
+    margin: 0px;
+}
+@font-face{
+    font-family: "ariblk";
+    src: url("fonts/ariblk.ttf");
+}
+@font-face{
+    font-family: "AKBALTHOM";
+    src: url("fonts/AKBALTHOM\ TNRB.TTF");
+}
+header{
+    height: 46px;
+    padding: 10px;
+    width: 100%;
+    margin-top: -64px;
+    background-color:#7b7780; 
+    position: fixed;       
+}
+body{
+    background-color: #d8dfe6;
+    
+}
+footer{
+    background-color:#b9cfc8;
+    width: 100%;
+    padding: 10px;
+    margin: 0px;
+}
+.text-nameproduct-copyrith{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.img-nameproduct-copyrith{
+    width:90px;
+}
+.text-nameproduct-copyrith{
+    font-size: 40px;
+    color: darkcyan;
+    padding-top: 20px;
+}
+.text-copyrith{
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgba(137, 136, 138, 0.814);
+    padding: 17px;
+}
+
+.logo{
+    width: 50px;
+    padding: 2px;
+    padding-left: 30px;
+}
+
+.HAC{
+    justify-content: right;
+    display: flex;
+    top: 0%;
+    position: absolute;
+    left: 57%;
+       
+}
+.text{
+    padding:25px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    height: 16px;
+    border: 1px;
+    border-style: none;
+    border-color: #134067;    
+}
+.text:hover{ 
+    background-color: #98949c; 
+}
+.wallpapermen-in-children{
+    width: 100%;
+    background-color: #7b92a6;
+    display: flex;
+    margin-top: 4rem;
+}
+.image-children{
+    width: 500px;
+    padding: 40px;
+}
+.textshop-in-children{
+    font-size: 70px;
+    padding: 50px 30px;
+    color: #afb4b9;
+}
+.textchildren-in-children{
+    font-size: 150px;
+    padding: 60px 50px;
+    color: #ffcc00;
+    
+}
+.discont{
+    text-align: center;
+}
+.scroll-image{
+    width: 900px; 
+    height: auto;
+    
+}
+.scroll-container{
+    width: 1434px; 
+      height: 450px; 
+      overflow: auto; 
+      display: flex;
+      border: 3px solid;
+    border-color: #bfdff8;
+    margin: 10px;  
+}
+.roll-product{
+    display: flex;
+    margin: 10px;
+}
+.roll-product{
+    display: flex;
+    margin: 10px;
+}
+.text-girl{
+    background-image: url('/image-grile/girls-image.jpg');
+    width: 80%;
+    height: 500px;
+    margin: 10px auto;
+    background-size: cover;
+    color: #f874d9;
+    border-radius: 5px;
+}
+.text-boys{
+    background-image: url('/image-grile/image-boy.jpg');
+    width: 80%;
+    height: 500px;
+    margin: 10px auto;
+    background-size: cover;
+    color: #74baf8;
+    border-radius: 5px;
+}
+.boysandgirl{
+    text-align: left;
+    padding-top: 10rem;
+    font-size: 10rem;
+    padding-left: 6rem;
+    font-weight: 600;
+}
+.star-rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    text-align: center;
+    display: inline-block;
+  }
+
+  .star-rating input {
+    display: none;
+    
+  }
+
+  .star-rating label {
+    font-size: 20px;
+    color: #646363;
+    display: inline-block;
+    padding: 1px;
+    cursor: pointer;
+  }
+
+  .star-rating label:before {
+    content: '\2605'; 
+  }
+
+  .star-rating input:checked ~ label {
+    color: #ffcc00; 
+  }
+.text-name-product{
+    font-size: 13px;
+    font-family: 'ariblk';
+    color:#3e4042c5;
+    margin-top: 0px;
+}
+.price-product{
+    font-size: 20px;
+    font-family: 'AKBALTHOM';
+    margin-top: -5px;
+    margin-left: 10px;
+    color: #02232f;
+}
+.img-product{
+    width:300px;
+    border:1px solid#f1f8fe;
+    border-radius: 10px;
+}
+.box-product{
+    border: 2px solid;
+    border-color: #a9b3b7;
+    border-radius: 10px;
+    width: 300px;
+    margin: 24px;
+    padding: 5px;
+    background-color: #26c4f95b;
+    height: 450px;
+    margin-top: 110px;
+}
+    </style>
+    <header>
+        <div class="img_HAC">
+            <div><img src="/image-grile/logo-product.png" class="logo"></div>
+                <div class="HAC">
+                    <a href="Womenpage.html" class="text">Women</a>
+                    <a href="Menpage.html" class="text">Men</a>
+                    <a href="Children.html" class="text">Children</a>
+                    <a href="index.html" class="text">Home</a>
+                    <a href="About.html"  class="text">About Us</a>
+                    <a href="contact.html" class="text">Contact</a>
+                   
+                </div>
+        </div>
+    </header>
+    <div class="wallpapermen-in-children">
+        <img src="/image-grile/Children-image.jpg" class="image-children">
+        <h1 class="textshop-in-children">Shop</h1>
+        <h1 class="textchildren-in-children">Children</h1>
+    </div>
+    <h1 class="discont">Discont</h1>
+    <div class="scroll-container">
+       <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/shoes-ads-design-template-72e8a0d99463c5612b81496e64b3dfd6_screen.jpg?ts=1618297509"  class="scroll-image" alt="Scrolling Image">
+       <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/shoes-offer-ads-design-template-644a6aa9422e93018265fff2354c34d7_screen.jpg?ts=1660294111" class="scroll-image" alt="Scrolling Image">
+       <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/running-shoes-template-design-5d7ab6504230299c0b8a51064fd65710_screen.jpg?ts=1697797831" class="scroll-image" alt="Scrolling Image">
+       <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/exclusive-fashion-sale-shoes-design-template-ae4ee1dc4f5496e7b3eb5ce381c8dda7_screen.jpg?ts=1651739839" class="scroll-image" alt="Scrolling Image">
+       <img src="https://img.freepik.com/free-psd/shoes-sale-social-media-post-square-banner-template-design_505751-3728.jpg" class="scroll-image" alt="Scrolling Image">
+       <img src="https://i.pinimg.com/originals/e1/0c/13/e10c1360d1cbebeee4df9da84c89733f.jpg" class="scroll-image" alt="Scrolling Image">
+ </div>
+    <div class="text-girl">
+    <h1 class="boysandgirl">Girls</h1>
+</div>
+        <div class="roll-product">
+        <div class="box-product">
+            <img src="/image-grile/G01.jpg" class="img-product">
+            
+            <div class="star-rating">
+                <input type="radio" id="star5" name="rating" value="5" />
+                <label for="star5"></label>
+                <input type="radio" id="star4" name="rating" value="4" />
+                <label for="star4"></label>
+                <input type="radio" id="star3" name="rating" value="3" />
+                <label for="star3"></label>
+                <input type="radio" id="star2" name="rating" value="2" />
+                <label for="star2"></label>
+                <input type="radio" id="star1" name="rating" value="1" />
+                <label for="star1"></label>
+              </div>
+              <h3 class="text-name-product">Kids Slip On Canvas Shoes-Blue.</h3>
+              <p class="price-product">99.99 $</p>
+        
+        </div>
+
+            <div class="box-product">
+                <img src="/image-grile/G02.webp" class="img-product">
+                <div class="star-rating">
+                    <input type="radio" id="star10" name="rating" value="5" />
+                    <label for="star10"></label>
+                    <input type="radio" id="star9" name="rating" value="4" />
+                    <label for="star9"></label>
+                    <input type="radio" id="star8" name="rating" value="3" />
+                    <label for="star8"></label>
+                    <input type="radio" id="star7" name="rating" value="2" />
+                    <label for="star7"></label>
+                    <input type="radio" id="star6" name="rating" value="1" />
+                    <label for="star6"></label>
+                  </div>
+                  <h3 class="text-name-product">Girl's Shoes Plus Size Genuine Leather Flat Shoes Casual Slip On.</h3>
+                  <p class="price-product">45.99 $</p>
+            </div>
+
+                <div class="box-product">
+                    <img src="/image-grile/G03.webp" class="img-product">
+                    <div class="star-rating">
+                        <input type="radio" id="star11" name="rating" value="5" />
+                        <label for="star11"></label>
+                        <input type="radio" id="star12" name="rating" value="4" />
+                        <label for="star12"></label>
+                        <input type="radio" id="star13" name="rating" value="3" />
+                        <label for="star13"></label>
+                        <input type="radio" id="star14" name="rating" value="2" />
+                        <label for="star14"></label>
+                        <input type="radio" id="star15" name="rating" value="1" />
+                        <label for="star15"></label>
+                      </div>
+                      <h3 class="text-name-product">Chidren Shoes Girls Pu Leather Sneaker Kids Glitter Dance Shoes.</h3>
+                      <p class="price-product">56.99 $</p>
+                </div>
+
+                <div class="box-product">
+                    <img src="/image-grile/G04.webp" class="img-product">
+                    <div class="star-rating">
+                        <input type="radio" id="star16" name="rating" value="5" />
+                        <label for="star16"></label>
+                        <input type="radio" id="star17" name="rating" value="4" />
+                        <label for="star17"></label>
+                        <input type="radio" id="star18" name="rating" value="3" />
+                        <label for="star18"></label>
+                        <input type="radio" id="star19" name="rating" value="2" />
+                        <label for="star19"></label>
+                        <input type="radio" id="star20" name="rating" value="1" />
+                        <label for="star20"></label>
+                      </div>
+                      <h3 class="text-name-product">2018 fashion PrincessChildren's shoes leatherchildren's flat casual.</h3>
+                      <p class="price-product">77.99 $</p>
+                </div>
+    </div>
+    <div class="roll-product">
+        <div class="box-product">
+            <img src="/image-grile/G05.webp" class="img-product">
+            
+            <div class="star-rating">
+                <input type="radio" id="star5" name="rating" value="5" />
+                <label for="star5"></label>
+                <input type="radio" id="star4" name="rating" value="4" />
+                <label for="star4"></label>
+                <input type="radio" id="star3" name="rating" value="3" />
+                <label for="star3"></label>
+                <input type="radio" id="star2" name="rating" value="2" />
+                <label for="star2"></label>
+                <input type="radio" id="star1" name="rating" value="1" />
+                <label for="star1"></label>
+              </div>
+              <h3 class="text-name-product">New Girls Shoes Ballet Flats Slip onLittle Kids Big Girls Loafers.</h3>
+              <p class="price-product">99.99 $</p>
+        
+        </div>
+
+            <div class="box-product">
+                <img src="/image-grile/G06.webp" class="img-product">
+                <div class="star-rating">
+                    <input type="radio" id="star10" name="rating" value="5" />
+                    <label for="star10"></label>
+                    <input type="radio" id="star9" name="rating" value="4" />
+                    <label for="star9"></label>
+                    <input type="radio" id="star8" name="rating" value="3" />
+                    <label for="star8"></label>
+                    <input type="radio" id="star7" name="rating" value="2" />
+                    <label for="star7"></label>
+                    <input type="radio" id="star6" name="rating" value="1" />
+                    <label for="star6"></label>
+                  </div>
+                  <h3 class="text-name-product">HaoChengJiaDa Kids Girl Shoes Princess Flat Fashion Casual Leather.</h3>
+                  <p class="price-product">45.59 $</p>
+            </div>
+
+                <div class="box-product">
+                    <img src="/image-grile/G07.webp" class="img-product">
+                    <div class="star-rating">
+                        <input type="radio" id="star11" name="rating" value="5" />
+                        <label for="star11"></label>
+                        <input type="radio" id="star12" name="rating" value="4" />
+                        <label for="star12"></label>
+                        <input type="radio" id="star13" name="rating" value="3" />
+                        <label for="star13"></label>
+                        <input type="radio" id="star14" name="rating" value="2" />
+                        <label for="star14"></label>
+                        <input type="radio" id="star15" name="rating" value="1" />
+                        <label for="star15"></label>
+                      </div>
+                      <h3 class="text-name-product">Girls summer bow princess shoes 2019 spring children sequin dress shoes.</h3>
+                      <p class="price-product">50.99 $</p>
+                </div>
+
+                <div class="box-product">
+                    <img src="/image-grile/G08.webp" class="img-product">
+                    <div class="star-rating">
+                        <input type="radio" id="star16" name="rating" value="5" />
+                        <label for="star16"></label>
+                        <input type="radio" id="star17" name="rating" value="4" />
+                        <label for="star17"></label>
+                        <input type="radio" id="star18" name="rating" value="3" />
+                        <label for="star18"></label>
+                        <input type="radio" id="star19" name="rating" value="2" />
+                        <label for="star19"></label>
+                        <input type="radio" id="star20" name="rating" value="1" />
+                        <label for="star20"></label>
+                      </div>
+                      <h3 class="text-name-product">Girls Low Heels Rhinestone PU Leather Shinny Bling Bling Dress.</h3>
+                      <p class="price-product">67.99 $</p>
+                </div>
+    </div>
+    <div class="roll-product">
+        <div class="box-product">
+            <img src="/image-grile/G09.webp" class="img-product">
+            
+            <div class="star-rating">
+                <input type="radio" id="star5" name="rating" value="5" />
+                <label for="star5"></label>
+                <input type="radio" id="star4" name="rating" value="4" />
+                <label for="star4"></label>
+                <input type="radio" id="star3" name="rating" value="3" />
+                <label for="star3"></label>
+                <input type="radio" id="star2" name="rating" value="2" />
+                <label for="star2"></label>
+                <input type="radio" id="star1" name="rating" value="1" />
+                <label for="star1"></label>
+              </div>
+              <h3 class="text-name-product">Ultralight Fashion Spring Casual Kid Shoes For Girls Black Pink Purple.</h3>
+              <p class="price-product">99.99 $</p>
+        
+        </div>
+
+            <div class="box-product">
+                <img src="/image-grile/G10.jpg" class="img-product">
+                <div class="star-rating">
+                    <input type="radio" id="star10" name="rating" value="5" />
+                    <label for="star10"></label>
+                    <input type="radio" id="star9" name="rating" value="4" />
+                    <label for="star9"></label>
+                    <input type="radio" id="star8" name="rating" value="3" />
+                    <label for="star8"></label>
+                    <input type="radio" id="star7" name="rating" value="2" />
+                    <label for="star7"></label>
+                    <input type="radio" id="star6" name="rating" value="1" />
+                    <label for="star6"></label>
+                  </div>
+                  <h3 class="text-name-product">New Model Sneakers Kids Shoes Student Shoes With Breathable.</h3>
+                  <p class="price-product">89.99 $</p>
+            </div>
+
+                <div class="box-product">
+                    <img src="/image-grile/G11.webp" class="img-product">
+                    <div class="star-rating">
+                        <input type="radio" id="star11" name="rating" value="5" />
+                        <label for="star11"></label>
+                        <input type="radio" id="star12" name="rating" value="4" />
+                        <label for="star12"></label>
+                        <input type="radio" id="star13" name="rating" value="3" />
+                        <label for="star13"></label>
+                        <input type="radio" id="star14" name="rating" value="2" />
+                        <label for="star14"></label>
+                        <input type="radio" id="star15" name="rating" value="1" />
+                        <label for="star15"></label>
+                      </div>
+                      <h3 class="text-name-product">Girls Sneakers Mesh Children's Sneakers Running Shoes Breathable.</h3>
+                      <p class="price-product">120.99 $</p>
+                </div>
+
+                <div class="box-product">
+                    <img src="/image-grile/G12.webp" class="img-product">
+                    <div class="star-rating">
+                        <input type="radio" id="star16" name="rating" value="5" />
+                        <label for="star16"></label>
+                        <input type="radio" id="star17" name="rating" value="4" />
+                        <label for="star17"></label>
+                        <input type="radio" id="star18" name="rating" value="3" />
+                        <label for="star18"></label>
+                        <input type="radio" id="star19" name="rating" value="2" />
+                        <label for="star19"></label>
+                        <input type="radio" id="star20" name="rating" value="1" />
+                        <label for="star20"></label>
+                      </div>
+                      <h3 class="text-name-product">autumn children shoes girls shoes fashion rivet casual kids shoes.</h3>
+                      <p class="price-product">150.99 $</p>
+                </div>
+    </div>
+    <div class="roll-product">
+        <div class="box-product">
+            <img src="/image-grile/G13.webp" class="img-product">
+            
+            <div class="star-rating">
+                <input type="radio" id="star5" name="rating" value="5" />
+                <label for="star5"></label>
+                <input type="radio" id="star4" name="rating" value="4" />
+                <label for="star4"></label>
+                <input type="radio" id="star3" name="rating" value="3" />
+                <label for="star3"></label>
+                <input type="radio" id="star2" name="rating" value="2" />
+                <label for="star2"></label>
+                <input type="radio" id="star1" name="rating" value="1" />
+                <label for="star1"></label>
+              </div>
+              <h3 class="text-name-product">Brand of children's shoes in the Korean version boys punk wind tide.</h3>
+              <p class="price-product">130.99 $</p>
+        
+        </div>
+
+            <div class="box-product">
+                <img src="/image-grile/G14.webp" class="img-product">
+                <div class="star-rating">
+                    <input type="radio" id="star10" name="rating" value="5" />
+                    <label for="star10"></label>
+                    <input type="radio" id="star9" name="rating" value="4" />
+                    <label for="star9"></label>
+                    <input type="radio" id="star8" name="rating" value="3" />
+                    <label for="star8"></label>
+                    <input type="radio" id="star7" name="rating" value="2" />
+                    <label for="star7"></label>
+                    <input type="radio" id="star6" name="rating" value="1" />
+                    <label for="star6"></label>
+                  </div>
+                  <h3 class="text-name-product">Children's shoes Autunm and Winter New Pink Girl Martin Boots Retro.</h3>
+                  <p class="price-product">85.99 $</p>
+            </div>
+
+                <div class="box-product">
+                    <img src="/image-grile/G15.webp" class="img-product">
+                    <div class="star-rating">
+                        <input type="radio" id="star11" name="rating" value="5" />
+                        <label for="star11"></label>
+                        <input type="radio" id="star12" name="rating" value="4" />
+                        <label for="star12"></label>
+                        <input type="radio" id="star13" name="rating" value="3" />
+                        <label for="star13"></label>
+                        <input type="radio" id="star14" name="rating" value="2" />
+                        <label for="star14"></label>
+                        <input type="radio" id="star15" name="rating" value="1" />
+                        <label for="star15"></label>
+                      </div>
+                      <h3 class="text-name-product">Children kid Todler Baby Little Girl White Patent Leather Ankle.</h3>
+                      <p class="price-product">120.99 $</p>
+                </div>
+
+                <div class="box-product">
+                    <img src="/image-grile/G16.webp" class="img-product">
+                    <div class="star-rating">
+                        <input type="radio" id="star16" name="rating" value="5" />
+                        <label for="star16"></label>
+                        <input type="radio" id="star17" name="rating" value="4" />
+                        <label for="star17"></label>
+                        <input type="radio" id="star18" name="rating" value="3" />
+                        <label for="star18"></label>
+                        <input type="radio" id="star19" name="rating" value="2" />
+                        <label for="star19"></label>
+                        <input type="radio" id="star20" name="rating" value="1" />
+                        <label for="star20"></label>
+                      </div>
+                      <h3 class="text-name-product">BABAYA Spring Children Shoes Boys Girls Sneakers Fashion Kids High Tops.</h3>
+                      <p class="price-product">99.99 $</p>
+                </div>
+            </div>
+    <div class="text-boys">
+            <h1 class="boysandgirl">Boys</h1>
+    </div>
+            <div class="roll-product">
+                <div class="box-product">
+                    <img src="/image-grile/B01.webp" class="img-product">
+                    
+                    <div class="star-rating">
+                        <input type="radio" id="star5" name="rating" value="5" />
+                        <label for="star5"></label>
+                        <input type="radio" id="star4" name="rating" value="4" />
+                        <label for="star4"></label>
+                        <input type="radio" id="star3" name="rating" value="3" />
+                        <label for="star3"></label>
+                        <input type="radio" id="star2" name="rating" value="2" />
+                        <label for="star2"></label>
+                        <input type="radio" id="star1" name="rating" value="1" />
+                        <label for="star1"></label>
+                    </div>
+                    <h3 class="text-name-product">Mixed Color Boy Sneaker Breathable Brand Kids Boys Running Tennis Blus.</h3>
+                    <p class="price-product">150.99 $</p>
+                
+                </div>
+
+                    <div class="box-product">
+                        <img src="image-grile/B02.webp" class="img-product">
+                        <div class="star-rating">
+                            <input type="radio" id="star10" name="rating" value="5" />
+                            <label for="star10"></label>
+                            <input type="radio" id="star9" name="rating" value="4" />
+                            <label for="star9"></label>
+                            <input type="radio" id="star8" name="rating" value="3" />
+                            <label for="star8"></label>
+                            <input type="radio" id="star7" name="rating" value="2" />
+                            <label for="star7"></label>
+                            <input type="radio" id="star6" name="rating" value="1" />
+                            <label for="star6"></label>
+                        </div>
+                        <h3 class="text-name-product">Kids Shoes Design Sneakers 2018 Breathable Sports Children Footwear.</h3>
+                        <p class="price-product">65.99 $</p>
+                    </div>
+
+                        <div class="box-product">
+                            <img src="/image-grile/B03.webp" class="img-product">
+                            <div class="star-rating">
+                                <input type="radio" id="star11" name="rating" value="5" />
+                                <label for="star11"></label>
+                                <input type="radio" id="star12" name="rating" value="4" />
+                                <label for="star12"></label>
+                                <input type="radio" id="star13" name="rating" value="3" />
+                                <label for="star13"></label>
+                                <input type="radio" id="star14" name="rating" value="2" />
+                                <label for="star14"></label>
+                                <input type="radio" id="star15" name="rating" value="1" />
+                                <label for="star15"></label>
+                            </div>
+                            <h3 class="text-name-product">Buy Kids Shoes 2018 Fasion Sneakers Boys Warm Sports.</h3>
+                            <p class="price-product">65.99 $</p>
+                        </div>
+
+                        <div class="box-product">
+                            <img src="/image-grile/B04.webp" class="img-product">
+                            <div class="star-rating">
+                                <input type="radio" id="star16" name="rating" value="5" />
+                                <label for="star16"></label>
+                                <input type="radio" id="star17" name="rating" value="4" />
+                                <label for="star17"></label>
+                                <input type="radio" id="star18" name="rating" value="3" />
+                                <label for="star18"></label>
+                                <input type="radio" id="star19" name="rating" value="2" />
+                                <label for="star19"></label>
+                                <input type="radio" id="star20" name="rating" value="1" />
+                                <label for="star20"></label>
+                            </div>
+                            <h3 class="text-name-product">Children Sports Shoes boys and girls air cushion sneakers comfortble.</h3>
+                            <p class="price-product">55.99 $</p>
+                        </div>
+            </div>
+            <div class="roll-product">
+                <div class="box-product">
+                    <img src="/image-grile/B05.jpg" class="img-product">
+                    
+                    <div class="star-rating">
+                        <input type="radio" id="star5" name="rating" value="5" />
+                        <label for="star5"></label>
+                        <input type="radio" id="star4" name="rating" value="4" />
+                        <label for="star4"></label>
+                        <input type="radio" id="star3" name="rating" value="3" />
+                        <label for="star3"></label>
+                        <input type="radio" id="star2" name="rating" value="2" />
+                        <label for="star2"></label>
+                        <input type="radio" id="star1" name="rating" value="1" />
+                        <label for="star1"></label>
+                    </div>
+                    <h3 class="text-name-product">2020 Latest Children Casual Zapatos kids Walking Shoes for Boys.</h3>
+                    <p class="price-product">55.99 $</p>
+                
+                </div>
+
+                    <div class="box-product">
+                        <img src="/image-grile/B06.webp" class="img-product">
+                        <div class="star-rating">
+                            <input type="radio" id="star10" name="rating" value="5" />
+                            <label for="star10"></label>
+                            <input type="radio" id="star9" name="rating" value="4" />
+                            <label for="star9"></label>
+                            <input type="radio" id="star8" name="rating" value="3" />
+                            <label for="star8"></label>
+                            <input type="radio" id="star7" name="rating" value="2" />
+                            <label for="star7"></label>
+                            <input type="radio" id="star6" name="rating" value="1" />
+                            <label for="star6"></label>
+                        </div>
+                        <h3 class="text-name-product">Fashion Spring 2018 Boys Shoes Casual Breathable Mesh Krasovki Blue.</h3>
+                        <p class="price-product">65.99 $</p>
+                    </div>
+
+                        <div class="box-product">
+                            <img src="/image-grile/B07.jpg" class="img-product">
+                            <div class="star-rating">
+                                <input type="radio" id="star11" name="rating" value="5" />
+                                <label for="star11"></label>
+                                <input type="radio" id="star12" name="rating" value="4" />
+                                <label for="star12"></label>
+                                <input type="radio" id="star13" name="rating" value="3" />
+                                <label for="star13"></label>
+                                <input type="radio" id="star14" name="rating" value="2" />
+                                <label for="star14"></label>
+                                <input type="radio" id="star15" name="rating" value="1" />
+                                <label for="star15"></label>
+                            </div>
+                            <h3 class="text-name-product">YITU New Boy's Vulcanized Shoes 2020 Fashion Boy Canvas Shoes Loafers.</h3>
+                            <p class="price-product">120.99 $</p>
+                        </div>
+
+                        <div class="box-product">
+                            <img src="/image-grile/B08.webp" class="img-product">
+                            <div class="star-rating">
+                                <input type="radio" id="star16" name="rating" value="5" />
+                                <label for="star16"></label>
+                                <input type="radio" id="star17" name="rating" value="4" />
+                                <label for="star17"></label>
+                                <input type="radio" id="star18" name="rating" value="3" />
+                                <label for="star18"></label>
+                                <input type="radio" id="star19" name="rating" value="2" />
+                                <label for="star19"></label>
+                                <input type="radio" id="star20" name="rating" value="1" />
+                                <label for="star20"></label>
+                            </div>
+                            <h3 class="text-name-product">Children shoes high Quality Brand boys.</h3>
+                            <p class="price-product">89.99 $</p>
+                        </div>
+            </div>
+            <div class="roll-product">
+                <div class="box-product">
+                    <img src="/image-grile/B09.webp" class="img-product">
+                    
+                    <div class="star-rating">
+                        <input type="radio" id="star5" name="rating" value="5" />
+                        <label for="star5"></label>
+                        <input type="radio" id="star4" name="rating" value="4" />
+                        <label for="star4"></label>
+                        <input type="radio" id="star3" name="rating" value="3" />
+                        <label for="star3"></label>
+                        <input type="radio" id="star2" name="rating" value="2" />
+                        <label for="star2"></label>
+                        <input type="radio" id="star1" name="rating" value="1" />
+                        <label for="star1"></label>
+                    </div>
+                    <h3 class="text-name-product">Beibei Children Shoes Boys Canvas shoes 2018.</h3>
+                    <p class="price-product">55.99 $</p>
+                
+                </div>
+
+                    <div class="box-product">
+                        <img src="/image-grile/B10.jpg" class="img-product">
+                        <div class="star-rating">
+                            <input type="radio" id="star10" name="rating" value="5" />
+                            <label for="star10"></label>
+                            <input type="radio" id="star9" name="rating" value="4" />
+                            <label for="star9"></label>
+                            <input type="radio" id="star8" name="rating" value="3" />
+                            <label for="star8"></label>
+                            <input type="radio" id="star7" name="rating" value="2" />
+                            <label for="star7"></label>
+                            <input type="radio" id="star6" name="rating" value="1" />
+                            <label for="star6"></label>
+                        </div>
+                        <h3 class="text-name-product">Pin On Children's Shoes.</h3>
+                        <p class="price-product">89.99 $</p>
+                    </div>
+
+                        <div class="box-product">
+                            <img src="/image-grile/B11.webp" class="img-product">
+                            <div class="star-rating">
+                                <input type="radio" id="star11" name="rating" value="5" />
+                                <label for="star11"></label>
+                                <input type="radio" id="star12" name="rating" value="4" />
+                                <label for="star12"></label>
+                                <input type="radio" id="star13" name="rating" value="3" />
+                                <label for="star13"></label>
+                                <input type="radio" id="star14" name="rating" value="2" />
+                                <label for="star14"></label>
+                                <input type="radio" id="star15" name="rating" value="1" />
+                                <label for="star15"></label>
+                            </div>
+                            <h3 class="text-name-product">2017 New Autumn FEI YAO Children Shoes Girls And Boys Casual Sneakers.</h3>
+                            <p class="price-product">45.99 $</p>
+                        </div>
+
+                        <div class="box-product">
+                            <img src="/image-grile/B12.webp" class="img-product">
+                            <div class="star-rating">
+                                <input type="radio" id="star16" name="rating" value="5" />
+                                <label for="star16"></label>
+                                <input type="radio" id="star17" name="rating" value="4" />
+                                <label for="star17"></label>
+                                <input type="radio" id="star18" name="rating" value="3" />
+                                <label for="star18"></label>
+                                <input type="radio" id="star19" name="rating" value="2" />
+                                <label for="star19"></label>
+                                <input type="radio" id="star20" name="rating" value="1" />
+                                <label for="star20"></label>
+                            </div>
+                            <h3 class="text-name-product">European Fashion cool New Brand Kids Sneakers High.</h3>
+                            <p class="price-product">60.99 $</p>
+                        </div>
+            </div>
+            <div class="roll-product">
+                <div class="box-product">
+                    <img src="/image-grile/B13.jpg" class="img-product">
+                    
+                    <div class="star-rating">
+                        <input type="radio" id="star5" name="rating" value="5" />
+                        <label for="star5"></label>
+                        <input type="radio" id="star4" name="rating" value="4" />
+                        <label for="star4"></label>
+                        <input type="radio" id="star3" name="rating" value="3" />
+                        <label for="star3"></label>
+                        <input type="radio" id="star2" name="rating" value="2" />
+                        <label for="star2"></label>
+                        <input type="radio" id="star1" name="rating" value="1" />
+                        <label for="star1"></label>
+                    </div>
+                    <h3 class="text-name-product">217 New European Fashion High Quality kids Shoes Cool lovely Children.</h3>
+                    <p class="price-product">50.99 $</p>
+                
+                </div>
+
+                    <div class="box-product">
+                        <img src="/image-grile/B14.webp" class="img-product">
+                        <div class="star-rating">
+                            <input type="radio" id="star10" name="rating" value="5" />
+                            <label for="star10"></label>
+                            <input type="radio" id="star9" name="rating" value="4" />
+                            <label for="star9"></label>
+                            <input type="radio" id="star8" name="rating" value="3" />
+                            <label for="star8"></label>
+                            <input type="radio" id="star7" name="rating" value="2" />
+                            <label for="star7"></label>
+                            <input type="radio" id="star6" name="rating" value="1" />
+                            <label for="star6"></label>
+                        </div>
+                        <h3 class="text-name-product">2017 Autumn Children Casual Shoes 1 to 5 Years Old Baby Boy and Girl.</h3>
+                        <p class="price-product">45.99 $</p>
+                    </div>
+
+                        <div class="box-product">
+                            <img src="/image-grile/B15.jpg" class="img-product">
+                            <div class="star-rating">
+                                <input type="radio" id="star11" name="rating" value="5" />
+                                <label for="star11"></label>
+                                <input type="radio" id="star12" name="rating" value="4" />
+                                <label for="star12"></label>
+                                <input type="radio" id="star13" name="rating" value="3" />
+                                <label for="star13"></label>
+                                <input type="radio" id="star14" name="rating" value="2" />
+                                <label for="star14"></label>
+                                <input type="radio" id="star15" name="rating" value="1" />
+                                <label for="star15"></label>
+                            </div>
+                            <h3 class="text-name-product">2019 Dropshipping High Quality Handmade Tai Chi Shoes Wing Chun.</h3>
+                            <p class="price-product">110.99</p>
+                        </div>
+
+                        <div class="box-product">
+                            <img src="/image-grile/B16.webp" class="img-product">
+                            <div class="star-rating">
+                                <input type="radio" id="star16" name="rating" value="5" />
+                                <label for="star16"></label>
+                                <input type="radio" id="star17" name="rating" value="4" />
+                                <label for="star17"></label>
+                                <input type="radio" id="star18" name="rating" value="3" />
+                                <label for="star18"></label>
+                                <input type="radio" id="star19" name="rating" value="2" />
+                                <label for="star19"></label>
+                                <input type="radio" id="star20" name="rating" value="1" />
+                                <label for="star20"></label>
+                            </div>
+                            <h3 class="text-name-product">2019 Dropshipping High Quality Handmade Tai Chi Shoes Wing Chun.</h3>
+                            <p class="price-product">120.99 $</p>
+                        </div>
+                    </div>
+    <footer>
+        <div class="text-nameproduct-copyrith">
+            <img src="/image-grile/logo-product.png" class="img-nameproduct-copyrith">
+            <h1 class="text-nameproduct-copyrith">RNPV Shop  <span class="text-copyrith">© All Rights Reserved.</span></h1>    
+        </div>
+
+    </footer>
+</body>
+</html>
